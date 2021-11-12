@@ -1,0 +1,41 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ISO8601.parser
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/billdenney/ISO8601.parser/workflows/R-CMD-check/badge.svg)](https://github.com/billdenney/ISO8601.parser/actions)
+<!-- badges: end -->
+
+The goal of ISO8601.parser is to assist with parsing ISO8601 strings
+
+## Installation
+
+You can install the development version of ISO8601.parser from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("billdenney/ISO8601.parser")
+```
+
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r example}
+library(ISO8601.parser)
+parse_ISO8660("R8/P1Y2M3DT4H5M6.7S")
+parse_ISO8660("2020-11-01T12:34:56.567890")
+```

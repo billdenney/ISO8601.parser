@@ -1,0 +1,19 @@
+Package: ISO8601.parser
+Title: Parses ISO 8601 date/time strings
+Version: 0.0.0.9000
+Authors@R: 
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Parse ISO 8601 date/time strings and extract the relevant parts.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+  R6,
+  rlang,
+  rly
+Suggests: 
+    covr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
