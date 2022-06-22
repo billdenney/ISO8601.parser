@@ -4,7 +4,7 @@ output: github_document
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-```{r, include = FALSE}
+```{r setup, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -36,6 +36,6 @@ This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
 library(ISO8601.parser)
-parse_ISO8660("R8/P1Y2M3DT4H5M6.7S")
-parse_ISO8660("2020-11-01T12:34:56.567890")
+parse_ISO8601("R8/P1Y2M3DT4H5M6.7S")
+parse_ISO8601("2020-11-01T12:34:56.567890")
 ```

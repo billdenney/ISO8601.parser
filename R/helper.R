@@ -9,8 +9,6 @@ set_value <- function(p) {
     for (nm in names(current)) {
       if (nm %in% names(ret)) {
         if (ret[[nm]] != current[[nm]]) {
-          print(ret)
-          print(current)
           stop(sprintf("mismatch with %s: %s vs %s", nm, ret[[nm]], current[[nm]]))
         }
       } else {

@@ -516,7 +516,7 @@ default_parser <- build_parser()
 #'   If not given, the default parser will be used.
 #' @return A named list with the parsed parts 
 #' @export
-parse_ISO8660 <- function(x, parser) {
+parse_ISO8601 <- function(x, parser) {
   if (missing(parser)) {
     parser <- default_parser
   }

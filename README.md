@@ -26,7 +26,7 @@ This is a basic example which shows you how to solve a common problem:
 
 ``` r
 library(ISO8601.parser)
-parse_ISO8660("R8/P1Y2M3DT4H5M6.7S")
+parse_ISO8601("R8/P1Y2M3DT4H5M6.7S")
 #> $repeating_interval
 #> [1] TRUE
 #> 
@@ -60,7 +60,7 @@ parse_ISO8660("R8/P1Y2M3DT4H5M6.7S")
 #> 
 #> $duration$fraction
 #> [1] "7"
-parse_ISO8660("2020-11-01T12:34:56.567890")
+parse_ISO8601("2020-11-01T12:34:56.567890")
 #> $date
 #> [1] TRUE
 #> 
